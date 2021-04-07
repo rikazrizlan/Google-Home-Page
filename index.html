@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <title>Google</title>
 </head>
@@ -21,12 +22,17 @@
 
     <main>
         <img src="./images/google-icon.png" alt="Google Icon">
-        <input type="text" />
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" />
+            <i class="fas fa-microphone"></i>
+        </div>
+        
         <div class="btn-container">
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
         </div>
-        <p>Google Offered In: <a href="#">Spanish</a></p>
+        <p>Google Offered In: <a class="lang-link" href="#">Spanish</a> <a class="lang-link" href="#">French</a></p>
     </main>
 
     <footer>
